@@ -52,6 +52,8 @@ Ensure you have Python and pip installed.
 ## 📊 Demonstration (Placeholder)
 
 <img width="792" height="812" alt="image" src="https://github.com/user-attachments/assets/a5356a06-e8d4-4ee4-ac67-b177e1a79072" />
+<img width="792" height="790" alt="image" src="https://github.com/user-attachments/assets/aeae6bf7-7da0-4dea-82b8-0a273135de0a" />
+
 
 [Image/GIF of the algorithm in action: showing the initial misaligned point clouds and the final registered result]
 
