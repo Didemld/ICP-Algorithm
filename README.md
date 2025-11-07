@@ -1,0 +1,62 @@
+# Iterative Closest Point (ICP) Algorithm Implementation
+
+This repository contains a Python implementation of the Iterative Closest Point (ICP) algorithm, a fundamental technique used in 2D and 3D point cloud registration. The algorithm is demonstrated in a step-by-step Jupyter Notebook.
+
+This project is a demonstration of core concepts in computational imaging and computer vision, specifically for solving geometric alignment problems.
+
+## ℹ️ About the Project
+
+The ICP algorithm is used to find the optimal rigid transformation (rotation and translation) that aligns a "source" point cloud to a "target" point cloud.
+
+This implementation in `ICP_Algorithm.ipynb` demonstrates the complete process:
+1.  **Data Generation:** Creating two point clouds (a source and a target).
+2.  **Association:** Finding the closest corresponding points between the two clouds.
+3.  **Transformation Calculation:** Computing the optimal rotation and translation (using Singular Value Decomposition - SVD) that minimizes the distance between these corresponding points.
+4.  **Iteration:** Applying the transformation and repeating the process until the alignment error converges below a threshold.
+
+## 🛠️ Built With
+
+This algorithm is implemented using standard Python scientific computing libraries:
+* [Python](https://www.python.org/)
+* [NumPy](https://numpy.org/) - For all matrix operations and transformations.
+* [Matplotlib](https://matplotlib.org/) - For visualizing the point clouds before and after registration.
+* [Jupyter Notebook](https://jupyter.org/) - For interactive demonstration and visualization.
+
+## 🚀 Getting Started
+
+To run this simulation on your local machine, follow these steps.
+
+### Prerequisites
+
+Ensure you have Python and pip installed.
+
+### Installation
+
+1.  Clone the repository:
+    ```sh
+    git clone [https://github.com/Didemld/ICP-Algorithm.git](https://github.com/Didemld/ICP-Algorithm.git)
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd ICP-Algorithm
+    ```
+3.  Install the required Python packages:
+    ```sh
+    pip install numpy matplotlib jupyterlab
+    ```
+4.  Start Jupyter Lab and open the notebook:
+    ```sh
+    jupyter lab ICP_Algorithm.ipynb
+    ```
+
+## 📊 Demonstration (Placeholder)
+
+<img width="792" height="812" alt="image" src="https://github.com/user-attachments/assets/a5356a06-e8d4-4ee4-ac67-b177e1a79072" />
+
+[Image/GIF of the algorithm in action: showing the initial misaligned point clouds and the final registered result]
+
+## 👤 Contact
+
+**Didem Doğan Başkaya**
+* **LinkedIn:** [`in/didemdoganbaskaya`](https://www.linkedin.com/in/didemdoganbaskaya)
+* **GitHub:** [`Didemld`](https://github.com/Didemld)
